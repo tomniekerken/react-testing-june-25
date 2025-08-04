@@ -5,6 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/react-testing-june-25",
   plugins: [react(), tailwindcss()],
   test: {
     globals: true,

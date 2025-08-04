@@ -35,7 +35,9 @@ export const routes = [
   },
 ];
 
-const router = createBrowserRouter(routes);
+const router = createBrowserRouter(routes, {
+  basename: "/react-testing-june-25",
+});
 
 const App = () => {
   return <RouterProvider router={router}></RouterProvider>;
